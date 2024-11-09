@@ -16,6 +16,6 @@ public class User  extends BaseModel{
     private String email ;
     @ManyToMany
     private List<Group> groups ;
-
+    private List<User> userFriends ;
 
 }
